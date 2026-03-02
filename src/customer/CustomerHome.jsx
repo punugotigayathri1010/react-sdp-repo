@@ -10,7 +10,7 @@ export default function CustomerHome() {
     const name = sessionStorage.getItem('customerName');
     const username = sessionStorage.getItem('customerUsername');
     const email = sessionStorage.getItem('customerEmail');
-
+ 
     if (name) setCustomerName(name);
     if (username) setCustomerUsername(username);
      if (email) setCustomerEmail(email);
