@@ -13,7 +13,7 @@ export default function CustomerHome() {
 
     if (name) setCustomerName(name);
     if (username) setCustomerUsername(username);
-    if (email) setCustomerEmail(email);
+     if (email) setCustomerEmail(email);
   }, []);
 
   return (
